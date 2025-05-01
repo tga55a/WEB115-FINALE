@@ -8,28 +8,26 @@
     <link href="styles.css" rel="stylesheet"></link>
 </head>
 <body>
-    
     <div>
-        <h1>Task Manager</h1>
-        <input type="text" id="inputField">
-
-
-        <label for="Priority">Priority</label>
-         <select id="Priority">
-            <option value="High">High</option>
-            <option value="Medium">Medium</option>
-            <option value="Low">Low</option>
-         </select>
-
-         <input type="checkbox" id="Importance">
-         <label for="Importance">Importance</label>
-        <button id="addTask">Add Task</button>
-
+        <h1 id="Header">Task Manager</h1>
+        <p id="Header">for your daily task managing needs.</p>
+        <div id="Settings">
+            <input type="text" id="inputField" placeholder="Enter Task Name">
+            <label for="Priority">Priority</label>
+            <select id="Priority">
+               <option value="High">High</option>
+               <option value="Medium">Medium</option>
+               <option value="Low">Low</option>
+            </select>
+   
+            <input type="checkbox" id="Importance">
+            <label for="Importance">Important</label>
+           <button id="addTask">Add Task</button>
+        </div>
     </div>
-
-    <div id="TasksList">
-
-
-    </div>
+    <br><br><br>
+    <div id="taskmanager"></div>
 </body>
+
 </html>
+
